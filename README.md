@@ -34,3 +34,35 @@ Możesz wejść na ttProxy z dowolnej wersji Minecrafta, od **1.8** do **1.20.1*
 ---
 
 ### 🎉 **Miłej zabawy na ttProxy!** 🎉
+
+# 📜 Spis Komend
+
+Wpis wszystkich komend znajduje się pod komendą:  
+``,help`` 🆘
+
+## 🗂️ **Porządek Komend**
+Komendy w spisie są ułożone **alfabetycznie** od **A** do **Z** 🔤.  
+
+## 📲 **Nawigacja po Spisie Komend**
+Po wywołaniu komendy ``,help`` masz dwie możliwości, aby przemieszczać się po spisie:
+
+1. **Użyj strzałek** na chacie ⬅️➡️.
+2. **Wpisz ręcznie**: 
+   - ``,help 1``
+   - ``,help 2``
+   - ``,help 3`` 
+   - i tak dalej! 🔢
+
+## 🖱️ **Pełny Wzór Komendy**
+Gdy najedziesz kursorem na jedną z komend w ``,help``, wyświetli się pełny wzór tej komendy. 👀✨
+
+Możesz również uzyskać ten sam wzór, wpisując początek komendy, a następnie klikając **Enter**. 🔄
+
+### 📝 **Przykład**
+Jeżeli wpiszesz komendę:  
+``,connect`` 🔗  
+Na chacie pojawi się pełny wzór komendy, co ułatwi jej użycie! 💡
+
+---
+
+### 🎉 **Miłej zabawy z komendami!** 🎉
