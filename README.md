@@ -158,60 +158,54 @@ Po wpisaniu tej komendy wyświetli się pełny wzór komendy:
 
 ### 🔍 **Szczegóły Argumentów:**
 
-1. **`<IP>`**:  
-   Tutaj wpisz domenę serwera lub jego numer IP. 🌍
 
-2. **`<PORT>`**:  
-   Jeśli używasz domeny, wpisz **0** (zero) lub poprawny port, jeśli go znasz. 🔢
+### 📝 **Szczegóły Argumentów:**
+
+1. **`<COUNT>`**:  
+   Tutaj wpisz **ilość botów**, które chcesz połączyć. 🔢
+
+2. **`<DELAY>`**:  
+   Określ odstęp w **milisekundach** między dołączaniem botów, np. **200**. ⏳
 
 3. **`<PROXY>`**:  
-   W tym argumencie wpisz nazwę listy proxy.  
-   - Rangi BASIC oraz PREMIUM mają dostęp do:
-     - **public:<kraj/all>**
-     - **private:<kraj/all>** 
-   - Ranga ELITE ma dostęp do tych samych list, ale z drobną różnicą:  
-     Ranga ELITE domyślnie używa osobnych proxy do łączenia.  
-     Może zmienić to pod komendą ``,proxytype`` ⚙️.
+   Wpisz nazwę listy proxy, której boty mają użyć.  
+   - Ranga **BASIC** oraz **PREMIUM** ma dostęp tylko do:  
+     **public:<kraj/all>** 🌍
+   - Ranga **ELITE** ma dostęp do:  
+     **public:<kraj/all>** oraz **private:<kraj/all>** 🔐
 
-   **Lista dostępnych krajów** dla public znajduje się pod komendą: ``,proxylist``.  
-   Dla private również znajdziesz ją pod komendą ``,proxylist`` oraz ``,proxytype``. 📋
+4. **`<NICKNAME>`**:  
+   Tutaj wpisz nick, jaki mają mieć boty.  
+   Opcje są takie same jak w komendzie ``,connect``. 👤
 
-   **Przykłady list proxy**: 
-   - `public:all` 
-   - `public:us` 
-   - `private:all` 
-   - `private:pl` 
-
-4. **`<NICK>`**:  
-   Tutaj wpisz dowolny nick, np. **BOB123**, lub skorzystaj z generatorów, takich jak:  
-   - `[r]` – losowe litery i cyfry 🔤  
-   - `[real]` – realistyczne nicki 👤  
-   - `[n]` – same cyfry 🔢  
-
-   Możesz również ustawić ilość znaków dla generatora, wpisując: 
-   - `[r:7]` (7 losowych znaków) 
-   - `[n:4]` (4 cyfry)  
-
-   Możesz także łączyć generatory, np.:  
-   - `Bob123[r:3]` 
-   - `[real][n:2]` 
-
-5. **`<CHECKER>`**:  
-   To opcjonalna funkcja dla komendy ``,connect``.  
-   Możesz wpisać tylko **true** lub **false**:  
-   - **true**: podczas łączenia z public proxy, lista proxy będzie skanowana maksymalnie 20 proxy do przodu w poszukiwaniu działającego IP. 🔍  
-   - **false**: przy użyciu private proxy nie musisz tego włączać.
+5. **`<MACRO>`**:  
+   Możesz wpisać **ID** nagranego wcześniej makra lub wpisać **false**. 🎥
 
 ---
 
-## 🎉 **Przykłady użycia komendy ,connect**
-Oto kilka przykładów:
+## ⚙️ **Działanie Komendy**
+Po użyciu tej komendy boty zaczną łączyć się z serwerem, na którym jesteś aktualnie połączony. 🌐
 
-- `,connect serwer.pl 0 private:pl [real] false`
-- `,connect server.pl 0 public:us Maciek555 true`
-- `,connect server.pl 0 public:all [r] true`
-- `,connect server.pl 0 private:de John123_ false`
+**Uwaga:**  
+Komendę ``,connectbot`` można używać wielokrotnie, ale **nie zaleca się spamowania**, ponieważ przerywa to poprzednie połączenia botów i rozpoczyna je od nowa. ❌
+
+Jeśli chcesz użyć komendy kilka razy dla lepszego efektu, odczekaj, aż większość botów się połączy lub podejmie próbę połączenia. ⏳
 
 ---
 
-### 🎊 **Miłej zabawy w łączeniu się z serwerami!** 🎊
+## 🤖 **Rodzaje Botów na ttProxy**
+
+Na ttProxy dostępne są **2 rodzaje botów**:
+
+1. **Boty standardowe**:  
+   - Dostępne dla rangi **BASIC** oraz **PREMIUM**. 🆕
+
+2. **Boty z fizyką**:  
+   - Dostępne tylko dla rangi **ELITE**. 🌟  
+   - **Różnice**: Boty z fizyką są bardziej realistyczne. Grawitacja, kolizja, knock z uderzenia itp. sprawiają, że zachowują się jak prawdziwi gracze! ⚖️
+
+Funkcja fizyki botów pozwala na obejście wielu antybotów, które sprawdzają, czy gracz posiada taką fizykę. 🚫🤖
+
+---
+
+### 🎉 **Miłej zabawy z botami na serwerze!** 🎉
