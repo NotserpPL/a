@@ -156,8 +156,6 @@ Aby połączyć boty, użyj komendy:
 Po wpisaniu tej komendy wyświetli się pełny wzór komendy:
 ,connectbot <COUNT> <DELAY> <PROXY> <NICKNAME> <MACRO>
 
-### 🔍 **Szczegóły Argumentów:**
-
 
 ### 📝 **Szczegóły Argumentów:**
 
