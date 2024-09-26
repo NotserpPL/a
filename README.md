@@ -2,6 +2,7 @@
 
 👋 **Witaj w przewodniku po ttProxy!** 🎮
 
+
 #1 🚪 **Wejście na ttProxy**
 Aby wejść na ttProxy, postępuj zgodnie z poniższymi krokami:
 
@@ -35,6 +36,7 @@ Możesz wejść na ttProxy z dowolnej wersji Minecrafta, od **1.8** do **1.20.1*
 
 ### 🎉 **Miłej zabawy na ttProxy!** 🎉
 
+
 # 📜 Spis Komend
 
 Wpis wszystkich komend znajduje się pod komendą:  
@@ -66,3 +68,81 @@ Na chacie pojawi się pełny wzór komendy, co ułatwi jej użycie! 💡
 ---
 
 ### 🎉 **Miłej zabawy z komendami!** 🎉
+
+
+# 🔗 Łączenie się na Serwer
+
+Aby połączyć się z innymi serwerami, użyj komendy:  
+``,connect`` 🌐
+
+## 💡 **Czym jest komenda ,connect?**
+Komenda ta przenosi Cię z lobby ttProxy na inny serwer Minecraft! 🎮  
+Dzięki ttProxy możesz wejść na dowolny serwer Minecraft w **100% bezpiecznie** 🔒.  
+Oferuje ona **zmianę nicku** oraz **zmianę IP** przy użyciu proxy.
+
+---
+
+## 📝 **Wzór Komendy**
+Poniżej przedstawiam wzór komendy oraz opisy do każdego argumentu:
+
+,connect <IP> <PORT> <PROXY> <NICK> <CHECKER[true/false]>
+
+### 🔍 **Szczegóły Argumentów:**
+
+1. **`<IP>`**:  
+   Tutaj wpisz domenę serwera lub jego numer IP. 🌍
+
+2. **`<PORT>`**:  
+   Jeśli używasz domeny, wpisz **0** (zero) lub poprawny port, jeśli go znasz. 🔢
+
+3. **`<PROXY>`**:  
+   W tym argumencie wpisz nazwę listy proxy.  
+   - Rangi BASIC oraz PREMIUM mają dostęp do:
+     - **public:<kraj/all>**
+     - **private:<kraj/all>** 
+   - Ranga ELITE ma dostęp do tych samych list, ale z drobną różnicą:  
+     Ranga ELITE domyślnie używa osobnych proxy do łączenia.  
+     Może zmienić to pod komendą ``,proxytype`` ⚙️.
+
+   **Lista dostępnych krajów** dla public znajduje się pod komendą: ``,proxylist``.  
+   Dla private również znajdziesz ją pod komendą ``,proxylist`` oraz ``,proxytype``. 📋
+
+   **Przykłady list proxy**: 
+   - `public:all` 
+   - `public:us` 
+   - `private:all` 
+   - `private:pl` 
+
+4. **`<NICK>`**:  
+   Tutaj wpisz dowolny nick, np. **BOB123**, lub skorzystaj z generatorów, takich jak:  
+   - `[r]` – losowe litery i cyfry 🔤  
+   - `[real]` – realistyczne nicki 👤  
+   - `[n]` – same cyfry 🔢  
+
+   Możesz również ustawić ilość znaków dla generatora, wpisując: 
+   - `[r:7]` (7 losowych znaków) 
+   - `[n:4]` (4 cyfry)  
+
+   Możesz także łączyć generatory, np.:  
+   - `Bob123[r:3]` 
+   - `[real][n:2]` 
+
+5. **`<CHECKER>`**:  
+   To opcjonalna funkcja dla komendy ``,connect``.  
+   Możesz wpisać tylko **true** lub **false**:  
+   - **true**: podczas łączenia z public proxy, lista proxy będzie skanowana maksymalnie 20 proxy do przodu w poszukiwaniu działającego IP. 🔍  
+   - **false**: przy użyciu private proxy nie musisz tego włączać.
+
+---
+
+## 🎉 **Przykłady użycia komendy ,connect**
+Oto kilka przykładów:
+
+- `,connect serwer.pl 0 private:pl [real] false`
+- `,connect server.pl 0 public:us Maciek555 true`
+- `,connect server.pl 0 public:all [r] true`
+- `,connect server.pl 0 private:de John123_ false`
+
+---
+
+### 🎊 **Miłej zabawy w łączeniu się z serwerami!** 🎊
